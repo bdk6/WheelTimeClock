@@ -1,0 +1,479 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_Module:Arduino_Nano_v3.x A?
+U 1 1 63B79BF7
+P 6900 3050
+F 0 "A?" H 7250 4250 50  0000 C CNN
+F 1 "Arduino_Nano_v3.x" H 7500 4100 50  0000 C CNN
+F 2 "Module:Arduino_Nano" H 6900 3050 50  0001 C CIN
+F 3 "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf" H 6900 3050 50  0001 C CNN
+	1    6900 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4001 D1
+U 1 1 63B7B602
+P 1800 1800
+F 0 "D1" H 1800 1583 50  0000 C CNN
+F 1 "1N4001" H 1800 1674 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 1800 1625 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 1800 1800 50  0001 C CNN
+	1    1800 1800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4001 D2
+U 1 1 63B7BDF1
+P 1800 2150
+F 0 "D2" H 1800 1933 50  0000 C CNN
+F 1 "1N4001" H 1800 2024 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 1800 1975 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 1800 2150 50  0001 C CNN
+	1    1800 2150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4001 D3
+U 1 1 63B7C25E
+P 2300 1800
+F 0 "D3" H 2300 1583 50  0000 C CNN
+F 1 "1N4001" H 2300 1674 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 2300 1625 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 2300 1800 50  0001 C CNN
+	1    2300 1800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4001 D4
+U 1 1 63B7C79A
+P 2300 2150
+F 0 "D4" H 2300 1933 50  0000 C CNN
+F 1 "1N4001" H 2300 2024 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 2300 1975 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 2300 2150 50  0001 C CNN
+	1    2300 2150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4001 D5
+U 1 1 63B7CC4D
+P 2350 850
+F 0 "D5" H 2350 633 50  0000 C CNN
+F 1 "1N4001" H 2350 724 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 2350 675 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 2350 850 50  0001 C CNN
+	1    2350 850 
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N47xxA D6
+U 1 1 63B7DA97
+P 3200 1100
+F 0 "D6" V 3154 1180 50  0000 L CNN
+F 1 "1N4733" V 3245 1180 50  0000 L CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 3200 925 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85816/1n4728a.pdf" H 3200 1100 50  0001 C CNN
+	1    3200 1100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R1
+U 1 1 63B7E92A
+P 2800 850
+F 0 "R1" V 2595 850 50  0000 C CNN
+F 1 "10K" V 2686 850 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 2800 850 50  0001 C CNN
+F 3 "~" H 2800 850 50  0001 C CNN
+	1    2800 850 
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R2
+U 1 1 63B7F1CF
+P 4050 1100
+F 0 "R2" H 4118 1146 50  0000 L CNN
+F 1 "10K" H 4118 1055 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 4050 1100 50  0001 C CNN
+F 3 "~" H 4050 1100 50  0001 C CNN
+	1    4050 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 63B931A0
+P 1500 2400
+F 0 "#PWR?" H 1500 2150 50  0001 C CNN
+F 1 "GND" H 1505 2227 50  0000 C CNN
+F 2 "" H 1500 2400 50  0001 C CNN
+F 3 "" H 1500 2400 50  0001 C CNN
+	1    1500 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 63B93B56
+P 3200 1300
+F 0 "#PWR?" H 3200 1050 50  0001 C CNN
+F 1 "GND" H 3205 1127 50  0000 C CNN
+F 2 "" H 3200 1300 50  0001 C CNN
+F 3 "" H 3200 1300 50  0001 C CNN
+	1    3200 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 63B94012
+P 4050 1300
+F 0 "#PWR?" H 4050 1050 50  0001 C CNN
+F 1 "GND" H 4055 1127 50  0000 C CNN
+F 2 "" H 4050 1300 50  0001 C CNN
+F 3 "" H 4050 1300 50  0001 C CNN
+	1    4050 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 1800 2050 1800
+Wire Wire Line
+	1950 2150 2050 2150
+Wire Wire Line
+	2450 2150 2550 2150
+Wire Wire Line
+	2550 2150 2550 1800
+Wire Wire Line
+	2550 1800 2450 1800
+Wire Wire Line
+	1650 1800 1500 1800
+Wire Wire Line
+	1500 1800 1500 2150
+Wire Wire Line
+	1650 2150 1500 2150
+Wire Wire Line
+	2900 850  3200 850 
+Wire Wire Line
+	4050 850  4050 1000
+Wire Wire Line
+	3200 950  3200 850 
+Connection ~ 3200 850 
+Wire Wire Line
+	2700 850  2500 850 
+Wire Wire Line
+	2200 850  2050 850 
+Wire Wire Line
+	2050 850  2050 1500
+Connection ~ 2050 1800
+Wire Wire Line
+	2050 1800 2150 1800
+$Comp
+L Device:CP1_Small C1
+U 1 1 63BA873D
+P 2950 1950
+F 0 "C1" H 3041 1996 50  0000 L CNN
+F 1 "1000" H 3041 1905 50  0000 L CNN
+F 2 "" H 2950 1950 50  0001 C CNN
+F 3 "~" H 2950 1950 50  0001 C CNN
+	1    2950 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C5
+U 1 1 63BA97B0
+P 9450 950
+F 0 "C5" H 9542 996 50  0000 L CNN
+F 1 "0.22" H 9542 905 50  0000 L CNN
+F 2 "" H 9450 950 50  0001 C CNN
+F 3 "~" H 9450 950 50  0001 C CNN
+	1    9450 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 63BB1DA8
+P 9450 1150
+F 0 "#PWR?" H 9450 900 50  0001 C CNN
+F 1 "GND" H 9455 977 50  0000 C CNN
+F 2 "" H 9450 1150 50  0001 C CNN
+F 3 "" H 9450 1150 50  0001 C CNN
+	1    9450 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Barrel_Jack J?
+U 1 1 63BB32E9
+P 850 2000
+F 0 "J?" H 907 2325 50  0000 C CNN
+F 1 "Barrel_Jack" H 907 2234 50  0000 C CNN
+F 2 "" H 900 1960 50  0001 C CNN
+F 3 "~" H 900 1960 50  0001 C CNN
+	1    850  2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 1900 1250 1900
+Wire Wire Line
+	1250 1900 1250 1500
+Wire Wire Line
+	1250 1500 2050 1500
+Connection ~ 2050 1500
+Wire Wire Line
+	2050 1500 2050 1800
+Wire Wire Line
+	1150 2100 1250 2100
+Wire Wire Line
+	1250 2100 1250 2350
+Wire Wire Line
+	1250 2350 2050 2350
+Wire Wire Line
+	2050 2350 2050 2150
+Connection ~ 2050 2150
+Wire Wire Line
+	2050 2150 2150 2150
+Wire Wire Line
+	2550 1800 2950 1800
+Wire Wire Line
+	2950 1800 2950 1850
+Connection ~ 2550 1800
+$Comp
+L power:GND #PWR?
+U 1 1 63BC323C
+P 2950 2400
+F 0 "#PWR?" H 2950 2150 50  0001 C CNN
+F 1 "GND" H 2955 2227 50  0000 C CNN
+F 2 "" H 2950 2400 50  0001 C CNN
+F 3 "" H 2950 2400 50  0001 C CNN
+	1    2950 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 850  9450 700 
+Text Notes 2700 1150 0    50   ~ 0
+5V1 Zener
+$Comp
+L Regulator_Linear:LM7805_TO220 U?
+U 1 1 63BC9E06
+P 3750 1800
+F 0 "U?" H 3550 1950 50  0000 C CNN
+F 1 "LM7805" H 3850 1950 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 3750 2025 50  0001 C CIN
+F 3 "https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF" H 3750 1750 50  0001 C CNN
+	1    3750 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 1300 3200 1250
+Wire Wire Line
+	9450 1150 9450 1050
+Wire Wire Line
+	4050 1300 4050 1200
+Wire Wire Line
+	2950 1800 3400 1800
+Connection ~ 2950 1800
+$Comp
+L power:GND #PWR?
+U 1 1 63BD8ED5
+P 3750 2400
+F 0 "#PWR?" H 3750 2150 50  0001 C CNN
+F 1 "GND" H 3755 2227 50  0000 C CNN
+F 2 "" H 3750 2400 50  0001 C CNN
+F 3 "" H 3750 2400 50  0001 C CNN
+	1    3750 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C2
+U 1 1 63BE4324
+P 3450 3000
+F 0 "C2" H 3542 3046 50  0000 L CNN
+F 1 "0.33" H 3542 2955 50  0000 L CNN
+F 2 "" H 3450 3000 50  0001 C CNN
+F 3 "~" H 3450 3000 50  0001 C CNN
+	1    3450 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C3
+U 1 1 63BE4C39
+P 4150 1950
+F 0 "C3" H 4242 1996 50  0000 L CNN
+F 1 "0.1" H 4242 1905 50  0000 L CNN
+F 2 "" H 4150 1950 50  0001 C CNN
+F 3 "~" H 4150 1950 50  0001 C CNN
+	1    4150 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1_Small C4
+U 1 1 63BE53C0
+P 4650 1950
+F 0 "C4" H 4741 1996 50  0000 L CNN
+F 1 "47" H 4741 1905 50  0000 L CNN
+F 2 "" H 4650 1950 50  0001 C CNN
+F 3 "~" H 4650 1950 50  0001 C CNN
+	1    4650 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 63BEFCCD
+P 3400 3550
+F 0 "#PWR?" H 3400 3300 50  0001 C CNN
+F 1 "GND" H 3405 3377 50  0000 C CNN
+F 2 "" H 3400 3550 50  0001 C CNN
+F 3 "" H 3400 3550 50  0001 C CNN
+	1    3400 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 63BF0327
+P 4150 2400
+F 0 "#PWR?" H 4150 2150 50  0001 C CNN
+F 1 "GND" H 4155 2227 50  0000 C CNN
+F 2 "" H 4150 2400 50  0001 C CNN
+F 3 "" H 4150 2400 50  0001 C CNN
+	1    4150 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 63BF0C32
+P 4650 2400
+F 0 "#PWR?" H 4650 2150 50  0001 C CNN
+F 1 "GND" H 4655 2227 50  0000 C CNN
+F 2 "" H 4650 2400 50  0001 C CNN
+F 3 "" H 4650 2400 50  0001 C CNN
+	1    4650 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 2400 1500 2150
+Connection ~ 1500 2150
+Wire Wire Line
+	2950 2400 2950 2050
+Wire Wire Line
+	3400 3550 3400 3200
+Wire Wire Line
+	3750 2400 3750 2100
+Wire Wire Line
+	4150 2400 4150 2050
+Wire Wire Line
+	4650 2400 4650 2050
+Wire Wire Line
+	4050 1800 4150 1800
+Wire Wire Line
+	4150 1850 4150 1800
+Connection ~ 4150 1800
+Wire Wire Line
+	4150 1800 4650 1800
+Wire Wire Line
+	4650 1850 4650 1800
+Connection ~ 4650 1800
+$Comp
+L power:GND #PWR?
+U 1 1 63BF8DEF
+P 6950 4300
+F 0 "#PWR?" H 6950 4050 50  0001 C CNN
+F 1 "GND" H 6955 4127 50  0000 C CNN
+F 2 "" H 6950 4300 50  0001 C CNN
+F 3 "" H 6950 4300 50  0001 C CNN
+	1    6950 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 1850 3400 1800
+Connection ~ 3400 1800
+Wire Wire Line
+	3400 1800 3450 1800
+Wire Wire Line
+	6950 4300 6950 4200
+Wire Wire Line
+	6900 4050 6900 4200
+Wire Wire Line
+	6900 4200 6950 4200
+Wire Wire Line
+	7000 4200 7000 4050
+Connection ~ 6950 4200
+Wire Wire Line
+	6950 4200 7000 4200
+$Comp
+L Motor:Motor_Servo M?
+U 1 1 63C0C167
+P 9400 2550
+F 0 "M?" H 9732 2615 50  0000 L CNN
+F 1 "Motor_Servo" H 9732 2524 50  0000 L CNN
+F 2 "" H 9400 2360 50  0001 C CNN
+F 3 "http://forums.parallax.com/uploads/attachments/46831/74481.png" H 9400 2360 50  0001 C CNN
+	1    9400 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Motor:Motor_Servo M?
+U 1 1 63C0E043
+P 9400 3050
+F 0 "M?" H 9732 3115 50  0000 L CNN
+F 1 "Motor_Servo" H 9732 3024 50  0000 L CNN
+F 2 "" H 9400 2860 50  0001 C CNN
+F 3 "http://forums.parallax.com/uploads/attachments/46831/74481.png" H 9400 2860 50  0001 C CNN
+	1    9400 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 1800 7100 2050
+Wire Wire Line
+	4650 1800 7100 1800
+$Comp
+L power:GND #PWR?
+U 1 1 63C32887
+P 9100 3550
+F 0 "#PWR?" H 9100 3300 50  0001 C CNN
+F 1 "GND" H 9105 3377 50  0000 C CNN
+F 2 "" H 9100 3550 50  0001 C CNN
+F 3 "" H 9100 3550 50  0001 C CNN
+	1    9100 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 63C33423
+P 8800 3550
+F 0 "#PWR?" H 8800 3300 50  0001 C CNN
+F 1 "GND" H 8805 3377 50  0000 C CNN
+F 2 "" H 8800 3550 50  0001 C CNN
+F 3 "" H 8800 3550 50  0001 C CNN
+	1    8800 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 1800 8550 1800
+Wire Wire Line
+	8550 1800 8550 2550
+Wire Wire Line
+	8550 3050 9100 3050
+Connection ~ 7100 1800
+Wire Wire Line
+	9100 2550 8550 2550
+Connection ~ 8550 2550
+Wire Wire Line
+	8550 2550 8550 3050
+Wire Wire Line
+	9100 3150 9100 3550
+Wire Wire Line
+	9100 2650 8800 2650
+Wire Wire Line
+	8800 2650 8800 3550
+Wire Wire Line
+	3200 850  4050 850 
+$EndSCHEMATC
