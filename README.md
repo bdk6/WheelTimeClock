@@ -15,7 +15,7 @@ My son and I love motorcycles.  I have an unhealthy fascination with time and cl
 So I wanted to make a clock for my son that looks like a motorcycle instrument cluster.
 This is it.
 
-##Features
+## Features
 The clock normally keeps time based on the power line frequency.  The power line
 frequency is -- long term -- VERY accurate.  That is a story in itself that I won't go
 into.  But it is a fascinating story.  In any case, clocks based on power line
